@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                                  /* Versão do JavaScript que será gerada */
+    "module": "Node16",                                /* O formato padrão que o Node.js entende */
+    "moduleResolution": "node16",                          /* Como o TS deve procurar a pasta node_modules */
+    "esModuleInterop": true,                             /* A mágica que permite o import do Express funcionar */
+    "strict": true,                                      /* Mantém o "cinto de segurança" do TS ativado */
+    "rootDir": "./src",
+    "skipLibCheck": true,                                /* Pula a verificação de erros dentro da pasta node_modules (deixa o servidor mais rápido) */
+    "forceConsistentCasingInFileNames": true,            /* Evita erros entre Windows (que não liga para maiúsculas) e Linux/Docker */
+    "outDir": "./dist"                                   /* Onde o código final vai ser salvo depois (para produção) */
+  },
+  "include": ["src/**/*"]                                /* Diz para o TS olhar apenas para a pasta src */
+}
