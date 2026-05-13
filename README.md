@@ -5,8 +5,8 @@ This repository contains a production-ready Node.js REST API that is fully conta
 
 The core highlight of this project is its infrastructure architecture. It features a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline built with GitHub Actions, ensuring that every new code pushed to the repository is automatically built, published to a registry, and deployed to the cloud without any manual intervention.
 
-## 🔗 Live Application
-**Production Environment:** http://3.144.189.214:3000/secret
+## Project URL
+[http://3.144.189.214:3000](http://3.144.189.214:3000)
 
 *(Note: As this is a personal showcase project, the AWS EC2 instance may be spun down occasionally to manage cloud infrastructure costs).*
 
