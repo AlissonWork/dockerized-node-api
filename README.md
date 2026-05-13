@@ -1,5 +1,9 @@
 # Automated CI/CD Node.js API on AWS EC2 🚀
 
+# Dockerized Node API
+
+Project URL: http://3.144.189.214:3000
+
 ## 📌 Overview
 This repository contains a production-ready Node.js REST API that is fully containerized using Docker and deployed on an Amazon Web Services (AWS) EC2 instance. 
 
